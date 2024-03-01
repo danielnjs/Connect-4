@@ -149,7 +149,7 @@ nest_asyncio.apply()
 
 async def main():
     # Replace 'YOUR_TELEGRAM_BOT_TOKEN' with your actual bot token
-    token = '6805697306:AAFzZc1ujtzvrtxsarsAwV32f83vSRi3Qv8'
+    token = 'your token here'
     application = Application.builder().token(token).build()
 
     setup_bot_commands(application)
